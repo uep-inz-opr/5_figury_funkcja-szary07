@@ -27,7 +27,8 @@ def liczenie_pol():
 
             baza_pol.append(pole_trojkata)
         elif y>=4:
-            return ("Błąd: można podać maksymalnie 3 liczby")
+            komunikat = ("Błąd: można podać maksymalnie 3 liczby")
+            return (komunikat)
             break 
         
         #print(liczby)
