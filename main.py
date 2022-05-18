@@ -28,14 +28,15 @@ def liczenie_pol():
             baza_pol.append(pole_trojkata)
         elif y>=4:
             komunikat = ("Błąd: można podać maksymalnie 3 liczby")
-            print(komunikat)
-            #return (komunikat)
-           #break 
+            #print(komunikat)
+            return komunikat
+            #break 
         
         #print(liczby)
     suma_pol = sum(baza_pol)
     #print("baza", baza_pol)
     totalna_suma = round(suma_pol,2)
+    
     print(totalna_suma)
     
         #print(y)
