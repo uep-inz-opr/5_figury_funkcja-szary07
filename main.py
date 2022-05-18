@@ -7,7 +7,7 @@ tablica_liczb = []
 def liczenie_pol():
     baza_pol = []
     for x in range(liczba_figur):
-        x = map(int, input().split())
+        x = map(float, input().split())
         liczby = list(x)
         
         y = len(liczby)
