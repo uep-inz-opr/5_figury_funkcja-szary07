@@ -29,7 +29,7 @@ def liczenie_pol():
         elif y>=4:
             komunikat = ("Błąd: można podać maksymalnie 3 liczby")
             return (komunikat)
-            break 
+           #break 
         
         #print(liczby)
     suma_pol = sum(baza_pol)
